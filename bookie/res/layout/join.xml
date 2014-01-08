@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -10,47 +11,53 @@
         android:orientation="vertical" >
 
         <EditText
-            android:id="@+id/join_edtEmail"
+            android:id="@+id/join_edt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
+            android:hint="@string/join_edt_email"
             android:ems="10"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/join_edtPassword"
+            android:id="@+id/join_edt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/join_edt_password"
             android:ems="10"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/join_edtPasswordRe"
+            android:id="@+id/join_edt_passwordConfirm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password Confirm"
+            android:hint="@string/join_edt_passwordConfirm"
             android:ems="10"
             android:inputType="textPassword" />
 
         <EditText
-            android:id="@+id/join_edtNickname"
+            android:id="@+id/join_edt_nickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="NickName"
+            android:hint="@string/join_edt_nickname"
             android:ems="10" />
-
-        <Button
-            android:id="@+id/join_btnJoin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Register" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/join_btnReset"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clear ALL" />
+        android:gravity="center">
+	
+        <Button
+            android:id="@+id/join_btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_btn_reset" />
+
+        <Button
+            android:id="@+id/join_btn_join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_btn_join" />
+    </LinearLayout>
 
 </LinearLayout>

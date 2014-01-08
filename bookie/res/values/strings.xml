@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Bookie</string>
     <string name="action_settings">Settings</string>
     <string name="splash">책읽는 사람들, bookie</string>
-
+    
+    <string name="join_edt_email">Email</string>
+    <string name="join_edt_password">Password</string>
+    <string name="join_edt_passwordConfirm">Password Confirm</string>
+    <string name="join_edt_nickname">Nickname</string>
+    <string name="join_btn_reset">Clear ALL</string>
+    <string name="join_btn_join">Register</string>
+    
+    <string name="readbook_guide">읽기 시작할 책의 정보를 입력해 주세요.</string>
+    <string name="readbook_edt_title"> 책제목 : </string>
+    <string name="readbook_edt_author"> 저자 : </string>
+    <string name="readbook_btn_startRead">책읽기 스타트</string>
+    
+    <string name="loglist_btn_saveRecord">읽은책 기록하기</string>
+    
 </resources>

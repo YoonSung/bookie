@@ -24,32 +24,46 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
+        public static final int action_settings=0x7f08001c;
         public static final int booklist_btnWrite=0x7f080001;
+        public static final int booklist_custom_author=0x7f080006;
+        public static final int booklist_custom_image=0x7f080004;
+        public static final int booklist_custom_pages=0x7f080007;
+        public static final int booklist_custom_title=0x7f080005;
         public static final int booklist_findGroup=0x7f080002;
         public static final int booklist_list=0x7f080000;
-        public static final int custom_image=0x7f080004;
-        public static final int custom_last=0x7f080006;
-        public static final int custom_pages=0x7f080007;
-        public static final int custom_title=0x7f080005;
-        public static final int join_btnJoin=0x7f08000c;
-        public static final int join_btnReset=0x7f08000d;
-        public static final int join_edtEmail=0x7f080008;
-        public static final int join_edtNickname=0x7f08000b;
-        public static final int join_edtPassword=0x7f080009;
-        public static final int join_edtPasswordRe=0x7f08000a;
-        public static final int main_btnJoin=0x7f080011;
-        public static final int main_btnLogin=0x7f080010;
-        public static final int main_edtEmail=0x7f08000e;
-        public static final int main_edtPassword=0x7f08000f;
-        public static final int row=0x7f080003;
+        public static final int booklist_row=0x7f080003;
+        public static final int join_btn_join=0x7f08000d;
+        public static final int join_btn_reset=0x7f08000c;
+        public static final int join_edt_email=0x7f080008;
+        public static final int join_edt_nickname=0x7f08000b;
+        public static final int join_edt_password=0x7f080009;
+        public static final int join_edt_passwordConfirm=0x7f08000a;
+        public static final int loglist_btn_saveRecord=0x7f08000f;
+        public static final int loglist_custom_content=0x7f080013;
+        public static final int loglist_custom_page=0x7f080012;
+        public static final int loglist_custom_readDate=0x7f080011;
+        public static final int loglist_list=0x7f08000e;
+        public static final int loglist_row=0x7f080010;
+        public static final int main_btnJoin=0x7f080017;
+        public static final int main_btnLogin=0x7f080016;
+        public static final int main_edtEmail=0x7f080014;
+        public static final int main_edtPassword=0x7f080015;
+        public static final int readbook_btn_startRead=0x7f08001b;
+        public static final int readbook_edt_author=0x7f08001a;
+        public static final int readbook_edt_title=0x7f080019;
+        public static final int readbook_txt_Guide=0x7f080018;
     }
     public static final class layout {
         public static final int booklist=0x7f030000;
-        public static final int custom_list=0x7f030001;
-        public static final int join=0x7f030002;
-        public static final int main=0x7f030003;
-        public static final int splash=0x7f030004;
+        public static final int booklist_cell=0x7f030001;
+        public static final int find_group=0x7f030002;
+        public static final int join=0x7f030003;
+        public static final int loglist=0x7f030004;
+        public static final int loglist_cell=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int read_book=0x7f030007;
+        public static final int splash=0x7f030008;
     }
     public static final class menu {
         public static final int splash=0x7f070000;
@@ -57,6 +71,17 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int join_btn_join=0x7f050008;
+        public static final int join_btn_reset=0x7f050007;
+        public static final int join_edt_email=0x7f050003;
+        public static final int join_edt_nickname=0x7f050006;
+        public static final int join_edt_password=0x7f050004;
+        public static final int join_edt_passwordConfirm=0x7f050005;
+        public static final int loglist_btn_saveRecord=0x7f05000d;
+        public static final int readbook_btn_startRead=0x7f05000c;
+        public static final int readbook_edt_author=0x7f05000b;
+        public static final int readbook_edt_title=0x7f05000a;
+        public static final int readbook_guide=0x7f050009;
         public static final int splash=0x7f050002;
     }
     public static final class style {

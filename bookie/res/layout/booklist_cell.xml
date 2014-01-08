@@ -5,14 +5,14 @@
     android:orientation="vertical" >
 
     <LinearLayout
-        android:id="@+id/row"
+        android:id="@+id/booklist_row"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
         android:paddingBottom="10dp" >
 
         <ImageView
-            android:id="@+id/custom_image"
+            android:id="@+id/booklist_custom_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="5dp" />
@@ -23,24 +23,24 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/custom_title"
+                android:id="@+id/booklist_custom_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textColor="#000000"
                 android:textStyle="bold"
                 android:layout_marginBottom="5dp" />
 
             <TextView
-                android:id="@+id/custom_last"
+                android:id="@+id/booklist_custom_author"
                 android:textSize="15sp"
                 android:textColor="#51574B"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             
             <TextView
-                android:id="@+id/custom_pages"
-                android:textSize="15sp"
+                android:id="@+id/booklist_custom_pages"
+                android:textSize="16sp"
                 android:textColor="#51574B"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
