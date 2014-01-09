@@ -33,7 +33,7 @@ import android.widget.Toast;
 public class BookList extends Activity implements OnClickListener{
 
 	private ArrayList<BookData> bookDataArrayList = new ArrayList<BookData>();
-	private Button btnReadBook, btnAddGroup;
+	private Button btnReadBook, btnAddGroup, btnStatistic;
 	private String mEmail;
 	private ArrayList<Map<String,String>> list;
 	private ListView listView; 
@@ -45,9 +45,11 @@ public class BookList extends Activity implements OnClickListener{
 		
 		btnReadBook = (Button) findViewById(R.id.booklist_btnWrite);
 		btnAddGroup = (Button) findViewById(R.id.booklist_findGroup);
+		btnStatistic = (Button) findViewById(R.id.booklist_statistic);
 		
 		btnReadBook.setOnClickListener(this);
 		btnAddGroup.setOnClickListener(this);
+		btnStatistic.setOnClickListener(this);
 		
 		SharedPreferences prefs = getSharedPreferences("pref", MODE_PRIVATE); 
 		mEmail = prefs.getString("email", null);
@@ -298,6 +300,9 @@ public class BookList extends Activity implements OnClickListener{
 			break;
 		case R.id.booklist_findGroup:
 			intent = new Intent(BookList.this, FindGroup.class);
+			break;
+		case R.id.booklist_statistic:
+			intent = new Intent(BookList.this, Statistic.class);
 			break;
 		}
 		

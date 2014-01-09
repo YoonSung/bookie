@@ -24,35 +24,44 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001c;
+        public static final int action_settings=0x7f080025;
         public static final int booklist_btnWrite=0x7f080001;
-        public static final int booklist_custom_author=0x7f080006;
-        public static final int booklist_custom_image=0x7f080004;
-        public static final int booklist_custom_pages=0x7f080007;
-        public static final int booklist_custom_title=0x7f080005;
+        public static final int booklist_custom_author=0x7f080007;
+        public static final int booklist_custom_image=0x7f080005;
+        public static final int booklist_custom_pages=0x7f080008;
+        public static final int booklist_custom_title=0x7f080006;
         public static final int booklist_findGroup=0x7f080002;
         public static final int booklist_list=0x7f080000;
-        public static final int booklist_row=0x7f080003;
-        public static final int join_btn_join=0x7f08000d;
-        public static final int join_btn_reset=0x7f08000c;
-        public static final int join_edt_email=0x7f080008;
-        public static final int join_edt_nickname=0x7f08000b;
-        public static final int join_edt_password=0x7f080009;
-        public static final int join_edt_passwordConfirm=0x7f08000a;
-        public static final int loglist_btn_saveRecord=0x7f08000f;
-        public static final int loglist_custom_content=0x7f080013;
-        public static final int loglist_custom_page=0x7f080012;
-        public static final int loglist_custom_readDate=0x7f080011;
-        public static final int loglist_list=0x7f08000e;
-        public static final int loglist_row=0x7f080010;
-        public static final int main_btnJoin=0x7f080017;
-        public static final int main_btnLogin=0x7f080016;
-        public static final int main_edtEmail=0x7f080014;
-        public static final int main_edtPassword=0x7f080015;
-        public static final int readbook_btn_startRead=0x7f08001b;
-        public static final int readbook_edt_author=0x7f08001a;
-        public static final int readbook_edt_title=0x7f080019;
-        public static final int readbook_txt_Guide=0x7f080018;
+        public static final int booklist_row=0x7f080004;
+        public static final int booklist_statistic=0x7f080003;
+        public static final int button1=0x7f08000b;
+        public static final int editText2=0x7f08000a;
+        public static final int join_btn_join=0x7f080011;
+        public static final int join_btn_reset=0x7f080010;
+        public static final int join_edt_email=0x7f08000c;
+        public static final int join_edt_nickname=0x7f08000f;
+        public static final int join_edt_password=0x7f08000d;
+        public static final int join_edt_passwordConfirm=0x7f08000e;
+        public static final int loglist_btn_saveRecord=0x7f080013;
+        public static final int loglist_custom_content=0x7f080017;
+        public static final int loglist_custom_page=0x7f080016;
+        public static final int loglist_custom_readDate=0x7f080015;
+        public static final int loglist_list=0x7f080012;
+        public static final int loglist_row=0x7f080014;
+        public static final int main_btnJoin=0x7f08001b;
+        public static final int main_btnLogin=0x7f08001a;
+        public static final int main_edtEmail=0x7f080018;
+        public static final int main_edtPassword=0x7f080019;
+        public static final int readbook_btn_startRead=0x7f08001f;
+        public static final int readbook_edt_author=0x7f08001e;
+        public static final int readbook_edt_title=0x7f08001d;
+        public static final int readbook_txt_Guide=0x7f08001c;
+        public static final int statistic_btn_1=0x7f080021;
+        public static final int statistic_btn_2=0x7f080022;
+        public static final int statistic_btn_3=0x7f080023;
+        public static final int statistic_btn_4=0x7f080024;
+        public static final int statistic_txt_result=0x7f080020;
+        public static final int textView1=0x7f080009;
     }
     public static final class layout {
         public static final int booklist=0x7f030000;
@@ -64,6 +73,7 @@ public final class R {
         public static final int main=0x7f030006;
         public static final int read_book=0x7f030007;
         public static final int splash=0x7f030008;
+        public static final int statistic=0x7f030009;
     }
     public static final class menu {
         public static final int splash=0x7f070000;

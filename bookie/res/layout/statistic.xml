@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/statistic_txt_result"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:text="버튼을 누르면\n통계가 시작됩니다." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/statistic_btn_1"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="170px"
+                android:text="책을 가장 많이 읽은 사람(페이지수)" />
+
+            <Button
+                android:id="@+id/statistic_btn_2"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="170px"
+                android:text="가장 많은 책에 손을 댄 사람(책의 권수) " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/statistic_btn_3"
+                android:layout_width="0px"
+                android:layout_height="170px"
+                android:layout_weight="1"
+                android:text="다 읽은 책이 가장 많은 사람" />
+
+            <Button
+                android:id="@+id/statistic_btn_4"
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="170px"
+                android:text="가장 많은 사람이 읽은 책" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

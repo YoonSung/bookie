@@ -29,13 +29,6 @@ public class DAO {
 	private SharedPreferences spf;
 	private SharedPreferences.Editor editor;
 	
-	public void savePreference(Context context, String key, String value) {
-		spf=PreferenceManager.getDefaultSharedPreferences(context);
-		editor=spf.edit();
-		editor.putString(key, value);
-		editor.commit();
-	}
-	
 	public static void centerToast(Context context, String message){
 		Toast toast=Toast.makeText(context, message, Toast.LENGTH_LONG);
 	      toast.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL, 0, 0);

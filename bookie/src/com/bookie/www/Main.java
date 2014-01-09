@@ -103,8 +103,6 @@ public class Main extends Activity implements OnClickListener {
 			    						 map.get("password").equalsIgnoreCase(edtPassword.getText().toString().trim())) {
 			    						
 			    						//프리퍼런스로 이메일 저장.
-			    						//dao.savePreference(Main.this, "email", edtEmail.getText().toString().trim());
-			    						
 			    						SharedPreferences pref = getSharedPreferences("pref", MODE_PRIVATE);
 			    				        SharedPreferences.Editor editor = pref.edit();
 			    				        editor.putString("email", edtEmail.getText().toString().trim());
